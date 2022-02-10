@@ -1,9 +1,13 @@
 import React from "react";
 
+import Input from "./components/Input";
+
 function App() {
   return (
     <>
-      <h1 className="text-blue-600">Hello</h1>
+      <div className="flex flex-col justify-center w-1/6 h-80">
+        <Input placeholder="Name" />
+      </div>
     </>
   );
 }
